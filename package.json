@@ -11,8 +11,8 @@
     "build-fox-android": "rm -rf android && rm app.json && cp configs/fox.json app.json && npx expo prebuild --platform android --clean",
     "build-monkey-ios": "rm -rf ios && rm app.json && cp configs/monkey.json app.json && npx expo prebuild --platform ios --clean",
     "build-monkey-android": "rm -rf android && rm app.json && cp configs/monkey.json app.json && npx expo prebuild --platform android --clean",
-    "start-fox": "rm app.json && cp configs/fox.json app.json && npx expo start --dev-client",
-    "start-monkey": "rm app.json && cp configs/monkey.json app.json && npx expo start --dev-client"
+    "start-fox": "rm -rf app.json && cp configs/fox.json app.json && npx expo start --dev-client",
+    "start-monkey": "rm -rf app.json && cp configs/monkey.json app.json && npx expo start --dev-client"
   },
   "dependencies": {
     "expo": "~49.0.11",
