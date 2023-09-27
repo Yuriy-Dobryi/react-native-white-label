@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83525520085",
+    "project_id": "white-label-brands",
+    "storage_bucket": "white-label-brands.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83525520085:android:642e26a669cc44333e305c",
+        "android_client_info": {
+          "package_name": "com.monkey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Gj6W8dyRf25ibga42XpQjWFhSAbJLg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

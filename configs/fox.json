@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "fox",
+    "slug": "fox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/brand-first/fox.png",
+    "splash": {
+      "image": "assets/brand-first/fox.png"
+    },
+    "backgroundColor": "#facfcf",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.fox",
+      "deploymentTarget": "13.0",
+      "supportsTablet": true,
+      "icon": "assets/brand-first/fox.png"
+    },
+    "android": {
+      "package": "com.fox",
+      "googleServicesFile": "./configs/fox-google-services.json",
+      "compileSdkVersion": 31,
+      "targetSdkVersion": 31,
+      "buildToolsVersion": "31.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "assets/brand-first/fox.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63ac6d75-3851-4c12-9c06-b7309cc0ad52"
+      },
+      "logo": "Fox",
+      "logoSize": 40,
+      "primaryColor": "green",
+      "primaryFontWeight": 400
+    }
+  }
+}

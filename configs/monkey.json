@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "monkey",
+    "slug": "monkey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/brand-second/monkey.png",
+    "splash": {
+      "image": "assets/brand-second/monkey.png"
+    },
+    "backgroundColor": "#e0f7d0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.monkey",
+      "deploymentTarget": "13.0",
+      "supportsTablet": true,
+      "icon": "assets/brand-second/monkey.png"
+    },
+    "android": {
+      "package": "com.monkey",
+      "googleServicesFile": "./configs/monkey-google-services.json",
+      "compileSdkVersion": 31,
+      "targetSdkVersion": 31,
+      "buildToolsVersion": "31.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "assets/brand-second/monkey.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "823a3e78-1616-4599-910f-6d2d04255b6b"
+      },
+      "logo": "Monkey",
+      "logoSize": 24,
+      "primaryColor": "blue",
+      "primaryFontWeight": "bold"
+    }
+  }
+}

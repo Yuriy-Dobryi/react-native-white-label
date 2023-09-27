@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:83525520085:android:66e6fce594578a613e305c",
+        "mobilesdk_app_id": "1:83525520085:android:4578b665471704e33e305c",
         "android_client_info": {
-          "package_name": "com.whiteLabel"
+          "package_name": "com.fox"
         }
       },
       "oauth_client": [],
